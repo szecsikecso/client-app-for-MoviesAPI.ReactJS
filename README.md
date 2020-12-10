@@ -1,6 +1,17 @@
-# react-home-task
+# client-app-for-MoviesApi.ReactJS
 
-React home task for ReactJS Global Mentoring Program [2020Q3 HU]
+Requires:
+---------
+
+Local Movies API Service
+GitHub Repository with local Movies API Service implementation:
+https://github.com/VarvaraZadnepriak/MoviesAPI.ReactJS
+To start local Movies API service, you should:
+1. Clone Movies API Service repository
+2. Run the following command to install node modules: npm i
+3. Run the following command to start Movies API Service: npm start
+Movies API Service will be available on http://localhost:4000/.
+API Swagger documentation will be available on http://localhost:4000/api-docs.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
