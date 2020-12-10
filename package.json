@@ -1,0 +1,66 @@
+{
+  "name": "react-home-task",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.35",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/user-event": "^12.1.5",
+    "axios": "^0.20.0",
+    "axios-mock-adapter": "1.19.0",
+    "bootstrap": "^4.5.2",
+    "caniuse-lite": "^1.0.30001164",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.5",
+    "formik": "^2.1.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.21",
+    "react-portal-overlay": "^1.0.1",
+    "react-redux": "^7.2.1",
+    "react-responsive": "^8.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-test-renderer": "17.0.1",
+    "redux": "^4.0.5",
+    "redux-mock-store": "1.5.4",
+    "redux-thunk": "^2.3.0",
+    "sinon": "9.2.1",
+    "styled-components": "^5.2.0",
+    "styled-icons": "^10.21.0",
+    "styled-normalize": "^8.0.7",
+    "yup": "^0.29.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll=false --coverage",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "jest": {
+    "coverageReporters": [
+      "html",
+      "text"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
